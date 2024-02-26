@@ -1,6 +1,6 @@
 package com.notes.Notes.Project.controller;
 
-import com.notes.Notes.Project.model.Notes;
+import com.notes.Notes.Project.model.notes.Notes;
 import com.notes.Notes.Project.service.NotesService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;

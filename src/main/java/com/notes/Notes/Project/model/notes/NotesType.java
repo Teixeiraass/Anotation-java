@@ -1,4 +1,4 @@
-package com.notes.Notes.Project.model;
+package com.notes.Notes.Project.model.notes;
 
 public enum NotesType {
     NOTES,

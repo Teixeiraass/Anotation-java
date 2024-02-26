@@ -1,6 +1,6 @@
 package com.notes.Notes.Project.service;
 
-import com.notes.Notes.Project.model.Notes;
+import com.notes.Notes.Project.model.notes.Notes;
 import com.notes.Notes.Project.repository.NotesRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
