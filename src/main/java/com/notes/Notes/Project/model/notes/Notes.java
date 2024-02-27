@@ -1,5 +1,6 @@
 package com.notes.Notes.Project.model.notes;
 
+import com.notes.Notes.Project.model.user.User;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -20,10 +21,15 @@ public class Notes {
     private String title;
 
     private String description;
+
     private String content;
 
     @Enumerated(EnumType.STRING)
     private NotesType notesType;
+
+    @ManyToOne
+    @JoinColumn(name = "user_id")
+    private User user;
 
     public Notes(){}
 }
